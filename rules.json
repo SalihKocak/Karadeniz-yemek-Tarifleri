@@ -1,0 +1,88 @@
+{
+    "project_name": "Karadeniz Yemekleri Web Sitesi",
+    "project_purpose": "HTML, CSS ve JavaScript kullanılarak Karadeniz yemeklerini tanıtan responsive bir web sitesi oluşturmak. Sayfalar: Ana Sayfa, Tarifler, Kategoriler, İletişim, Hakkımızda.",
+    "tech_stack": ["HTML", "CSS", "JavaScript"],
+    "folder_structure": {
+      "root": ["index.html", "tarifler.html", "hakkimizda.html", "iletisim.html", "kategoriler.html", "style.css", "script.js"],
+      "assets": ["img/", "video/"]
+    },
+    "coding_style": {
+      "html": {
+        "indentation": 2,
+        "use_semantic_tags": true,
+        "responsive_meta_tag": true
+      },
+      "css": {
+        "indentation": 2,
+        "naming_convention": "kebab-case",
+        "use_flex_grid": true,
+        "mobile_first": true
+      },
+      "javascript": {
+        "indentation": 2,
+        "use_const_let": true,
+        "no_inline_js": true,
+        "add_comments": true
+      }
+    },
+    "ui_guidelines": {
+      "theme": "Karadeniz yeşili, mavi, beyaz teması",
+      "component_style": {
+        "navbar": "sticky, responsive",
+        "cards": "rounded borders, shadow, hover animation",
+        "buttons": "soft green tone, hover transition",
+        "footer": "dark theme with social icons"
+      }
+    },
+    "page_requirements": {
+      "index": [
+        "Karadeniz hakkında kısa bilgi",
+        "Hero banner (Karadeniz manzarası)",
+        "3 adet popüler yemek kartı",
+        "Footer"
+      ],
+      "tarifler": [
+        "Tüm yemeklerin küçük kartlar şeklinde listelenmesi",
+        "Kartlara tıklayınca yemek detay sayfasına yönlendirme"
+      ],
+      "kategoriler": [
+        "Sebzeli Karadeniz Yemekleri",
+        "Etli Karadeniz Yemekleri",
+        "Doğu Karadeniz Yemekleri",
+        "Batı Karadeniz Yemekleri"
+      ],
+      "iletisim": [
+        "Contact form (isim, mail, mesaj)",
+        "Samsun’da bir konumu gösteren iframe Google Maps",
+        "Footer"
+      ],
+      "hakkimizda": [
+        "Proje amacı",
+        "Karadeniz mutfağı hakkında genel bilgiler",
+        "Fotoğraf + açıklamalı bölüm"
+      ]
+    },
+    "ai_rules": {
+      "allowed_actions": [
+        "HTML şablonları oluştur",
+        "CSS tasarımı oluştur",
+        "JavaScript etkileşimleri yaz",
+        "Responsive tasarım ekle",
+        "Yemek kartları için örnek veri ekle"
+      ],
+      "forbidden_actions": [
+        "Backend kodu yazma",
+        "Veritabanı oluşturma",
+        "React, Vue, Angular kullanma"
+      ]
+    },
+    "workflow_instructions": [
+      "HTML sayfalarını oluştur",
+      "Navbar ve footer tüm sayfalarda ortak olsun",
+      "CSS dosyasını oluştur ve tüm sayfalara bağla",
+      "Kart tasarımlarını yarat",
+      "Tüm siteyi mobile responsive yap",
+      "Görsel dosyaları için img klasörü oluştur"
+    ]
+  }
+  

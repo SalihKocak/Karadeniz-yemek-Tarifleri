@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Gradient tanımları -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d5016;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a7c2a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b9e3d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8bc34a;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="plateGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Arka plan daire (gradient ile) -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGradient)" stroke="#4a7c2a" stroke-width="3"/>
+  
+  <!-- Dekoratif daire içi halka -->
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#6b9e3d" stroke-width="1" opacity="0.3"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#6b9e3d" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Yaprak deseni (üst) -->
+  <path d="M 100 35 Q 72 50 62 78 Q 58 95 65 115 Q 75 135 100 145 Q 125 135 135 115 Q 142 95 138 78 Q 128 50 100 35 Z" 
+        fill="url(#leafGradient)" stroke="#4a7c2a" stroke-width="2.5" opacity="0.9"/>
+  
+  <!-- İç yaprak (detay) -->
+  <path d="M 100 50 Q 80 60 72 82 Q 68 98 75 113 Q 83 128 100 135 Q 117 128 125 113 Q 132 98 128 82 Q 120 60 100 50 Z" 
+        fill="#5a8a2a" opacity="0.6"/>
+  
+  <!-- Yaprak damarı -->
+  <path d="M 100 50 L 100 135" stroke="#4a7c2a" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 100 70 Q 85 75 80 85" stroke="#4a7c2a" stroke-width="1" opacity="0.3" fill="none"/>
+  <path d="M 100 70 Q 115 75 120 85" stroke="#4a7c2a" stroke-width="1" opacity="0.3" fill="none"/>
+  <path d="M 100 90 Q 85 95 82 105" stroke="#4a7c2a" stroke-width="1" opacity="0.3" fill="none"/>
+  <path d="M 100 90 Q 115 95 118 105" stroke="#4a7c2a" stroke-width="1" opacity="0.3" fill="none"/>
+  
+  <!-- Tabak (gradient ile) -->
+  <circle cx="100" cy="115" r="28" fill="url(#plateGradient)" opacity="0.95" stroke="#e0e0e0" stroke-width="1"/>
+  <circle cx="100" cy="115" r="23" fill="#1e3a5f" stroke="#2d5016" stroke-width="1.5"/>
+  
+  <!-- Balık figürü (modernize) -->
+  <g transform="translate(100, 115)">
+    <!-- Balık gövdesi -->
+    <ellipse cx="0" cy="0" rx="14" ry="7" fill="#ffffff" opacity="0.95"/>
+    
+    <!-- Balık başı detayı -->
+    <ellipse cx="6" cy="0" rx="6" ry="5" fill="#f0f0f0"/>
+    
+    <!-- Balık gözü -->
+    <circle cx="8" cy="-1" r="2" fill="#1e3a5f"/>
+    <circle cx="9" cy="-1.5" r="0.7" fill="#ffffff"/>
+    
+    <!-- Balık ağzı -->
+    <path d="M 13 0 Q 14 1 13.5 1.5" stroke="#1e3a5f" stroke-width="1" fill="none" stroke-linecap="round"/>
+    
+    <!-- Balık kuyruk -->
+    <path d="M -14 0 L -18 -4 L -18 4 Z" fill="#ffffff" opacity="0.9"/>
+    
+    <!-- Balık yüzgeci -->
+    <path d="M 0 -7 L 2 -10 L 4 -7 Z" fill="#ffffff" opacity="0.8"/>
+    
+    <!-- Balık pulları (dekoratif) -->
+    <circle cx="-4" cy="-2" r="1.5" fill="#e8e8e8" opacity="0.6"/>
+    <circle cx="-2" cy="2" r="1.5" fill="#e8e8e8" opacity="0.6"/>
+    <circle cx="-8" cy="1" r="1.5" fill="#e8e8e8" opacity="0.6"/>
+  </g>
+  
+  <!-- Dekoratif yıldızlar -->
+  <circle cx="45" cy="60" r="2" fill="#8bc34a" opacity="0.6"/>
+  <circle cx="155" cy="60" r="2" fill="#8bc34a" opacity="0.6"/>
+  <circle cx="40" cy="150" r="2.5" fill="#8bc34a" opacity="0.5"/>
+  <circle cx="160" cy="150" r="2.5" fill="#8bc34a" opacity="0.5"/>
+</svg>
